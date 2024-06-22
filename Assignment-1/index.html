@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Party Invitation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src="partybg.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="content">
+        <div class="header">
+            <h1>You're Invited to My Birthday Party!</h1>
+            <p>Join me for a day of fun, food, and celebration.</p>
+        </div>
+
+        <div class="invite-form">
+            <h2>REGISTER</h2>
+            <form id="rsvp-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <h2>Party Details</h2>
+        <table class="details-table">
+            <tr>
+                <th>Date</th>
+                <td>June 15, 2024</td>
+            </tr>
+            <tr>
+                <th>Time</th>
+                <td>3:00 PM - 8:00 PM</td>
+            </tr>
+            <tr>
+                <th>Location</th>
+                <td>123 Party Lane, Fun Town</td>
+            </tr>
+        </table>
+
+        <h2>What to Expect</h2>
+        <ul>
+            <li>Games and activities</li>
+            <li>Delicious food and drinks</li>
+            <li>Music and dancing</li>
+            <li>Special surprises!</li>
+        </ul>
+
+        <div class="media">
+            <h2>Party Playlist</h2>
+            <audio controls>
+                <source src="music.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="footer">
+            <p>Can't wait to celebrate with you!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
