@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Enquiry Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header text-center">
+                <h2>Admission Enquiry Form</h2>
+            </div>
+            <div class="card-body">
+                <form id="admissionForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        <div class="invalid-feedback">Please enter your name.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" class="form-control" id="city" placeholder="Enter your city" required>
+                        <div class="invalid-feedback">Please enter your city.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="totalMarks">Total Marks</label>
+                        <input type="number" class="form-control" id="totalMarks" placeholder="Enter your marks" required>
+                        <div class="invalid-feedback">Please enter valid marks.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="cutoff">Cutoff</label>
+                        <input type="number" class="form-control" id="cutoff" placeholder="Enter your cutoff" required>
+                        <div class="invalid-feedback">Please enter a valid cutoff.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone no.</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter your number" required>
+                        <div class="invalid-feedback">Please enter a valid phone number.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Mail ID</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your mail" required>
+                        <div class="invalid-feedback">Please enter a valid email address.</div>
+                    </div>
+                    <div class="text-center">
+                        <button type="reset" class="btn btn-secondary">Reset</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
